@@ -11,3 +11,5 @@ add to root crontab
 @reboot  /{PATH}/logger.sh
 
 */15 * * * * /{PATH}/self_check.sh
+
+self_check.sh - Any script for self-checking and reboot if fails
